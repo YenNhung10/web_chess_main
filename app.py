@@ -1,6 +1,6 @@
-let currentFen = 'start';
-let highlightedSquares = [];
-let selectedSquare = null;
+currentFen = 'start'
+highlightedSquares = []
+selectedSquare = null
 
 function clearHighlights() {
     highlightedSquares.forEach(square => {
